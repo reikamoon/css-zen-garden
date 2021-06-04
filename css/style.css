@@ -1,0 +1,112 @@
+body {
+background-color: rgb(6, 163, 168);
+background-image: linear-gradient(rgb(6, 163, 168), rgb(10, 128, 65));
+color: whitesmoke;
+
+}
+
+h1, h2, h3, p, a {
+font-family: "Sen";
+}
+
+h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p, a{
+    font-size: 20px;
+}
+
+a:link {
+    color: rgb(62, 216, 255);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(255, 164, 202);
+}
+
+a:hover {
+    color: rgb(93, 221, 34);
+}
+
+.preamble h3 {
+font-family: 'Amatic SC';
+color: rgb(80, 255, 74);
+font-size: 37px;
+}
+
+.explanation h3{
+    font-family: "Poiret One";
+    color: rgb(240, 193, 107);
+    font-size: 30px;
+}
+
+.participation h3{
+    font-family: "Handlee";
+    color: rgb(16, 227, 255);
+    font-size: 32px;
+}
+
+.benefits h3{
+    font-family: "Charm";
+    color: rebeccapurple;
+    font-size: 30px;
+}
+
+.requirements h3{
+    font-family: "Bungee Shade";
+    color: rgb(255, 255, 255);
+
+}
+
+.design-name{
+    font-size: 25px;
+}
+
+.designer-name{
+    font-family: "Dynalight";
+    font-size: 30px;
+}
+
+#zen-intro h1{
+    font-family: "Hi Melody";
+    font-size: 60px;
+}
+
+#zen-intro h2{
+    font-family: "Charm";
+    font-size: 40px;
+}
+
+#design-archives h3{
+    font-family: "Emilys Candy";
+    color: rgb(243, 182, 208);
+    font-size: 30px;
+}
+
+#zen-resources h3{
+    color: rgb(219, 204, 69);
+}
+
+div > h3{
+color: rgb(224, 188, 110);
+}
+
+li:nth-child(even) {
+  color: rgb(228, 215, 42);
+}
+
+li:nth-child(odd) {
+    color: rgb(255, 255, 255);
+}
+
