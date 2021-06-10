@@ -1,6 +1,6 @@
 body {
 background-color: rgb(6, 163, 168);
-background-image: linear-gradient(rgb(6, 163, 168), rgb(10, 128, 65));
+background-image: linear-gradient(rgb(53, 138, 88), rgb(10, 128, 65));
 color: whitesmoke;
 
 }
@@ -42,25 +42,97 @@ a:hover {
 .preamble h3 {
 font-family: 'Amatic SC';
 color: rgb(80, 255, 74);
-font-size: 37px;
+text-shadow: 2px 2px #000000;
+font-size: 60px;
+background-image: url(../img/daisies.png);
+background-repeat: repeat;
+background-size: contain;
+}
+
+.preamble {
+  background-color: rgb(116, 76, 39);
+}
+
+.preamble p {
+font-size: 25px;
+}
+
+#zen-preamble {
+border: 4px solid;
+border-color: rgb(219, 204, 69);
+padding: 10px;
 }
 
 .explanation h3{
     font-family: "Poiret One";
     color: rgb(240, 193, 107);
-    font-size: 30px;
+    text-shadow: 2px 2px #000000;
+    font-size: 50px;
+    background-image: url(../img/daisyborder2.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.explanation {
+    background-color: rgb(116, 76, 39);
+}
+
+.explanation p {
+    font-size: 25px;
+}
+
+#zen-explanation {
+    border: 4px solid;
+    border-color: rgb(219, 204, 69);
+    padding: 10px;
 }
 
 .participation h3{
     font-family: "Handlee";
     color: rgb(16, 227, 255);
-    font-size: 32px;
+    text-shadow: 2px 2px #000000;
+    font-size: 60px;
+    background-image: url(../img/daisies.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.participation {
+    background-color: rgb(116, 76, 39);
+}
+
+.participation p {
+    font-size: 25px;
+}
+
+#zen-participation {
+    border: 4px solid;
+    border-color: rgb(219, 204, 69);
+    padding: 10px;
 }
 
 .benefits h3{
     font-family: "Charm";
     color: rebeccapurple;
-    font-size: 30px;
+    text-shadow: 2px 2px #000000;
+    font-size: 50px;
+    background-image: url(../img/daisyborder2.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.benefits p {
+    font-size: 25px;
+}
+
+.benefits {
+    background-color: rgb(116, 76, 39);
+}
+
+#zen-benefits{
+    border: 4px solid;
+    border-color: rgb(219, 204, 69);
+    padding: 10px;
 }
 
 .requirements h3{
@@ -70,12 +142,13 @@ font-size: 37px;
 }
 
 .design-name{
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .designer-name{
     font-family: "Dynalight";
-    font-size: 30px;
+    text-shadow: 2px 2px #000000;
+    font-size: 40px;
 }
 
 #zen-intro h1{
@@ -108,5 +181,36 @@ li:nth-child(even) {
 
 li:nth-child(odd) {
     color: rgb(255, 255, 255);
+}
+
+.design-selection ul > li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid;
+	padding: 10px;
+	font-size: 20px;
+	margin: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.317);
+    background-color: rgb(16, 110, 60);
+    background-image: url(../img/daisies.png);
+    background-repeat: repeat;
+    background-size: contain;
+    
+}
+
+.zen-resources ul > li {
+	display: grid;
+    border: 1px solid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    font-size: 20px;
+}
+
+.zen-resources a {
+	text-decoration: none;
+	padding: 0.25em 1em;
+	display: block;
 }
 
