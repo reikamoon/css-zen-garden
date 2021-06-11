@@ -2,6 +2,7 @@ body {
 background-color: rgb(6, 163, 168);
 background-image: linear-gradient(rgb(53, 138, 88), rgb(10, 128, 65));
 color: whitesmoke;
+margin: 20px;
 
 }
 
@@ -41,12 +42,13 @@ a:hover {
 
 .preamble h3 {
 font-family: 'Amatic SC';
-color: rgb(80, 255, 74);
+color: rgb(240, 193, 107);
 text-shadow: 2px 2px #000000;
 font-size: 60px;
 background-image: url(../img/daisies.png);
 background-repeat: repeat;
 background-size: contain;
+padding-left: 60px;
 }
 
 .preamble {
@@ -55,6 +57,7 @@ background-size: contain;
 
 .preamble p {
 font-size: 25px;
+padding: 5px;
 }
 
 #zen-preamble {
@@ -64,13 +67,14 @@ padding: 10px;
 }
 
 .explanation h3{
-    font-family: "Poiret One";
+    font-family: "Amatic SC";
     color: rgb(240, 193, 107);
     text-shadow: 2px 2px #000000;
-    font-size: 50px;
+    font-size: 60px;
     background-image: url(../img/daisyborder2.png);
     background-repeat: repeat;
     background-size: contain;
+    padding-left: 60px;
 }
 
 .explanation {
@@ -79,6 +83,7 @@ padding: 10px;
 
 .explanation p {
     font-size: 25px;
+    padding: 5px;
 }
 
 #zen-explanation {
@@ -88,13 +93,14 @@ padding: 10px;
 }
 
 .participation h3{
-    font-family: "Handlee";
-    color: rgb(16, 227, 255);
+    font-family: "Amatic SC";
+    color: rgb(240, 193, 107);
     text-shadow: 2px 2px #000000;
     font-size: 60px;
     background-image: url(../img/daisies.png);
     background-repeat: repeat;
     background-size: contain;
+    padding-left: 60px;
 }
 
 .participation {
@@ -103,6 +109,7 @@ padding: 10px;
 
 .participation p {
     font-size: 25px;
+    padding: 5px;
 }
 
 #zen-participation {
@@ -112,17 +119,19 @@ padding: 10px;
 }
 
 .benefits h3{
-    font-family: "Charm";
-    color: rebeccapurple;
+    font-family: "Amatic SC";
+    color: rgb(240, 193, 107);
     text-shadow: 2px 2px #000000;
-    font-size: 50px;
+    font-size: 60px;
     background-image: url(../img/daisyborder2.png);
     background-repeat: repeat;
     background-size: contain;
+    padding-left: 60px;
 }
 
 .benefits p {
     font-size: 25px;
+    padding: 5px;
 }
 
 .benefits {
@@ -196,6 +205,8 @@ li:nth-child(odd) {
     background-image: url(../img/daisies.png);
     background-repeat: repeat;
     background-size: contain;
+    background-position: ;
+
     
 }
 
