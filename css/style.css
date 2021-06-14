@@ -161,7 +161,6 @@ padding: 10px;
 }
 
 #zen-intro h1{
-    font-family: "Hi Melody";
     font-size: 60px;
 }
 
@@ -197,6 +196,7 @@ li:nth-child(odd) {
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid;
+    list-style-type: none;
 	padding: 10px;
 	font-size: 20px;
 	margin: 5px;
@@ -205,17 +205,42 @@ li:nth-child(odd) {
     background-image: url(../img/daisies.png);
     background-repeat: repeat;
     background-size: contain;
-    background-position: ;
 
     
 }
 
+aside.sidebar > .wrapper {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "a c";
+}
+
+.zen-resources {
+    grid-area: b;
+
+}
+
+.design-selection {
+    grid-area: a;
+
+}
+
+.design-archives {
+    grid-area: c;
+}
+
 .zen-resources ul > li {
-	display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    grid-auto-rows: minmax(10px, auto);
-    font-size: 20px;
+    font-size: 30px;
+    background-color: rgb(116, 76, 39);
+    border: 2px solid;
+    border-color: rgb(219, 204, 69);
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    
 }
 
 .zen-resources a {
@@ -224,3 +249,9 @@ li:nth-child(odd) {
 	display: block;
 }
 
+.intro h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Amatic SC";
+    text-shadow: 2px 2px #000000;
+}
