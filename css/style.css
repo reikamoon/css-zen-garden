@@ -212,8 +212,7 @@ li:nth-child(odd) {
 
 .zen-resources ul > li {
 	display: grid;
-    border: 1px solid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
     grid-auto-rows: minmax(10px, auto);
     font-size: 20px;
