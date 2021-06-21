@@ -1,4 +1,7 @@
 /* reikamoon css framework */
+@import url(https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Exo:wght@300&family=Orbitron&family=Quicksand:wght@300&display=swap);
+
+
 body {
     background-color: rgb(20, 20, 20);
     color: whitesmoke;
